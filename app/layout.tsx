@@ -13,6 +13,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "National Education Foresight 2025",
   description: "In collaboration with Element Learning",
+  viewport: "width=device-width, initial-scale=1",
 };
 
 export default function RootLayout({

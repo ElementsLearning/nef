@@ -45,7 +45,7 @@ const Carousel = ({ images }: { images: string[] }) => {
       {/* Previous button */}
       <button
         onClick={goToPrevious}
-        className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-[#2E3191] rounded-full p-3 transition-all duration-200 shadow-lg hover:shadow-xl"
+        className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-[#2E3191] rounded-full p-2 md:p-3 transition-all duration-200 shadow-lg hover:shadow-xl z-10"
         aria-label="Previous image"
       >
         <svg
@@ -54,7 +54,7 @@ const Carousel = ({ images }: { images: string[] }) => {
           viewBox="0 0 24 24"
           strokeWidth={2}
           stroke="currentColor"
-          className="w-6 h-6"
+          className="w-4 h-4 md:w-6 md:h-6"
         >
           <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
         </svg>
@@ -63,7 +63,7 @@ const Carousel = ({ images }: { images: string[] }) => {
       {/* Next button */}
       <button
         onClick={goToNext}
-        className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-[#2E3191] rounded-full p-3 transition-all duration-200 shadow-lg hover:shadow-xl"
+        className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-[#2E3191] rounded-full p-2 md:p-3 transition-all duration-200 shadow-lg hover:shadow-xl z-10"
         aria-label="Next image"
       >
         <svg
@@ -72,7 +72,7 @@ const Carousel = ({ images }: { images: string[] }) => {
           viewBox="0 0 24 24"
           strokeWidth={2}
           stroke="currentColor"
-          className="w-6 h-6"
+          className="w-4 h-4 md:w-6 md:h-6"
         >
           <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
         </svg>
@@ -84,9 +84,9 @@ const Carousel = ({ images }: { images: string[] }) => {
           <button
             key={index}
             onClick={() => setCurrentIndex(index)}
-            className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${
+            className={`w-2 h-2 md:w-2.5 md:h-2.5 rounded-full transition-all duration-300 ${
               index === currentIndex
-                ? 'bg-[#2E3191] w-8'
+                ? 'bg-[#2E3191] w-6 md:w-8'
                 : 'bg-gray-300 hover:bg-gray-400'
             }`}
             aria-label={`Go to image ${index + 1}`}
@@ -107,8 +107,8 @@ export const Gallery = () => {
   ];
 
   return (
-    <div className="px-40 py-20 flex flex-col gap-12 bg-white">
-      <h2 className="text-[#2E3191] text-6xl font-bold">Event Gallery</h2>
+    <div className="px-4 sm:px-8 md:px-16 lg:px-24 xl:px-40 py-10 md:py-16 lg:py-20 flex flex-col gap-6 md:gap-8 lg:gap-12 bg-white">
+      <h2 className="text-[#2E3191] text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold">Event Gallery</h2>
       <div>
         <Carousel images={galleryImages} />
       </div>
