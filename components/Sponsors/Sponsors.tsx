@@ -24,7 +24,7 @@ const sponsors = [
 
 export const Sponsors = () => {
   return (
-    <div className="px-4 sm:px-8 md:px-16 lg:px-24 xl:px-40 py-10 md:py-16 lg:py-20 flex flex-col gap-6 md:gap-8 lg:gap-12 bg-white">
+    <div id="sponsors" className="px-4 sm:px-8 md:px-16 lg:px-24 xl:px-40 py-10 md:py-16 lg:py-20 flex flex-col gap-6 md:gap-8 lg:gap-12 bg-white">
       <h2 className="text-[#2E3191] text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold">Sponsors</h2>
       <div className="flex flex-col gap-8 md:gap-12">
         {sponsors.map(({ tierName, color, logos }, i) => (

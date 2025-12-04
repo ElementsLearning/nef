@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export const Footer = () => {
   return (
-    <footer className="bg-[#2F3191] text-white flex flex-col gap-6 md:gap-8 px-4 sm:px-8 md:px-16 lg:px-24 xl:px-40 py-8 md:py-12 overflow-hidden">
+    <footer id="footer" className="bg-[#2F3191] text-white flex flex-col gap-6 md:gap-8 px-4 sm:px-8 md:px-16 lg:px-24 xl:px-40 py-8 md:py-12 overflow-hidden">
       <div className="flex flex-col lg:flex-row gap-6">
         <div className="aspect-square w-full max-w-[200px] sm:max-w-xs mx-auto lg:mx-0 lg:w-auto p-3 sm:p-4 pb-2 flex flex-col justify-center items-center bg-[#4494D0]">
           <img src="/assets/Asset 11.png" alt="" className="w-20 sm:w-24 md:w-32 lg:w-36" />

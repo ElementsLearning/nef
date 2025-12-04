@@ -86,7 +86,7 @@ export const Timer = ({ endTime = new Date('2025-12-23T10:00:00+05:00') }: Timer
     <div className="bg-[#E6E6E6] px-4 sm:px-6 md:px-12 lg:px-20 xl:px-40 py-8 md:py-10 lg:py-12">
       <div className="flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-8 lg:gap-6 max-w-7xl mx-auto">
         {/* Logo - centered on mobile, left on desktop */}
-        <div className="flex-shrink-0">
+        <div className="shrink-0">
           <img 
             src="/assets/conferenceLogo.png" 
             alt="Conference Logo" 
