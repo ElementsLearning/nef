@@ -1,39 +1,77 @@
 
+// const schedule = [
+//   {
+//     color: "#FFFFFF",
+//     time: "09:30 - 09:50",
+//     session: "Opening & Setting the Stage"
+//   },
+//   {
+//     color: "#06B2CD",
+//     time: "10:10 - 10:25",
+//     session: "Panel 1: Keynote"
+//   },
+//   {
+//     color: "#06B2CD",
+//     time: "10:25 - 10:50",
+//     session: "Panel 1: Quality in Elementary Education - Are We Building Strong Foundations?"
+//   },
+//   {
+//     color: "#00E0B9",
+//     time: "11:05 - 11:20",
+//     session: "Panel 2: Keynote"
+//   },
+//   {
+//     color: "#00E0B9",
+//     time: "11:20 - 11:45",
+//     session: "Panel 2: It Takes a Village to Raise a Child - Society's Role in Education"
+//   },
+//   {
+//     color: "#FFFFFF",
+//     time: "12:00 - 12:30",
+//     session: "Networking Tea"
+//   },
+//   {
+//     color: "#4494D0",
+//     time: "12:30 - 12:45",
+//     session: "Panel 3: Keynote"
+//   },
+// ]
+
 const schedule = [
   {
     color: "#FFFFFF",
-    time: "09:30 - 09:50",
-    session: "Opening & Setting the Stage"
+    time: "COMING SOON",
+    session: "COMING SOON"
   },
   {
     color: "#06B2CD",
-    time: "10:10 - 10:25",
-    session: "Panel 1: Keynote"
+    time: "COMING SOON",
+    session: "COMING SOON"
   },
   {
     color: "#06B2CD",
-    time: "10:25 - 10:50",
-    session: "Panel 1: Quality in Elementary Education - Are We Building Strong Foundations?"
+    time: "COMING SOON",
+    session: "COMING SOON"
   },
   {
     color: "#00E0B9",
-    time: "11:05 - 11:20",
-    session: "Panel 2: Keynote"
+    time: "COMING SOON",
+    session: "COMING SOON"
   },
   {
     color: "#00E0B9",
-    time: "11:20 - 11:45",
-    session: "Panel 2: It Takes a Village to Raise a Child - Society's Role in Education"
+    time: "COMING SOON",
+    session: "COMING SOON"
   },
   {
     color: "#FFFFFF",
-    time: "12:00 - 12:30",
-    session: "Networking Tea"
+    time: "COMING SOON",
+    session: "COMING SOON"
   },
   {
     color: "#4494D0",
-    time: "12:30 - 12:45",
-    session: "Panel 3: Keynote"
+    time: "COMING SOON",
+    session: "COMING SOON"
   },
 ]
 

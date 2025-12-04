@@ -20,8 +20,9 @@ export default function Home() {
       <Schedule />
       <Gallery />
       <Banner />
-      <Sponsors />
-      <Partners />
+      <div className="h-20 bg-white" />
+      {/* <Sponsors />
+      <Partners /> */}
     </div>
   );
 }

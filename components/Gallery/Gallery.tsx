@@ -38,6 +38,10 @@ const Carousel = ({ images }: { images: string[] }) => {
               src={image}
               className="w-full h-full object-cover"
             />
+            {/* Coming Soon Overlay */}
+            <div className="absolute inset-0 flex items-center justify-center">
+              <h3 className="text-white text-3xl md:text-5xl lg:text-6xl font-bold text-center">COMING SOON</h3>
+            </div>
           </div>
         ))}
       </div>
